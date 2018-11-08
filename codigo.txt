@@ -1,0 +1,23 @@
+DISTRIBUCION
+hostname distribucion
+userename Redes privilege 15 password emergentes
+no username cisco
+los gb son trunk no llevan segureidad
+los fa son access si llevan seguridad
+
+crear vlan
+vlan 55
+ int vlan 55
+ip add 
+exit
+ip defa 192.168.55.254
+crear las vlan necesarias 
+
+seguridad a los access
+spanning-tree porfast
+spanning-tree bp
+
+para que pasen mas vlan es
+swp trunk allowed vlan 11.12.13
+
+do wr para guardar
